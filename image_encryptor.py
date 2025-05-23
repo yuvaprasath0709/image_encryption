@@ -8,7 +8,7 @@ from PIL import Image
 import logging
 
 # ========== CONFIG ==========
-KEY = b'YuvaPrasathSafe1'  # ✅ Exactly 16 bytes
+KEY = b'YuvaPrasathSafe1'  #  Exactly 16 bytes
 BLOCK_SIZE = AES.block_size
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
